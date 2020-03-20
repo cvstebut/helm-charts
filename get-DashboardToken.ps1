@@ -1,0 +1,1 @@
+kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | Select-String admin-user-token | ForEach-Object { $_ -Split '\s+' } | Select-Object -First 1)

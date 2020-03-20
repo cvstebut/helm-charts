@@ -1,0 +1,3 @@
+**/*.lock
+.deploy
+charts/*/charts/*
