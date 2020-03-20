@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  dashboard-metrics-scraper:
+  - apiVersion: v2
+    appVersion: v1.0.3
+    created: "2020-03-20T14:33:42.6287788+01:00"
+    description: A Helm chart for Kubernetes
+    digest: f2b042011f7f8c50e803456d5c07b9084905dd91a9432517335de4d90f91aa57
+    name: dashboard-metrics-scraper
+    urls:
+    - https://github.com/cvstebut/helm-charts/releases/download/dashboard-metrics-scraper-0.1.5/dashboard-metrics-scraper-0.1.5.tgz
+    version: 0.1.5
+  kubernetes-dashboard:
+  - apiVersion: v2
+    appVersion: v2.0.0-rc6
+    created: "2020-03-20T14:33:42.825893+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 3db54ab4d15c50c8c582066fbb5e6645066565e2b4ccd16effb58ed071801687
+    name: kubernetes-dashboard
+    urls:
+    - https://github.com/cvstebut/helm-charts/releases/download/kubernetes-dashboard-0.1.0/kubernetes-dashboard-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-20T14:33:42.3132024+01:00"
